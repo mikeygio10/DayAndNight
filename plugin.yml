@@ -1,0 +1,23 @@
+---
+name: DayAndNight
+version: 0.0.1
+api:
+- 3.0.0
+- 3.1.0
+- 3.2.0
+- 3.3.0
+- 4.0.0
+main: DayAndNight\Main
+author: Clik
+description: Sets day/night per world
+commands:
+  day:
+    description: Sets it to day
+    usage: /day
+    permission: day.use
+
+  night:
+    description: Sets it to night
+    usage: /night
+    permission: night.use
+...
